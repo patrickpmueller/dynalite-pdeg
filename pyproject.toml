@@ -4,6 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "dynalite-pdeg"
+dependencies = ["asyncio_telnet", "aiohttp"]
 version = "0.0.1"
 authors = [
   { name="Patrick Pellacani Muller", email="patrickpmueller@proton.me" },
